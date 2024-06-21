@@ -1,0 +1,14 @@
+types:
+  - feat
+  - fix
+  - hotfix
+  - docs
+  - style
+  - refactor
+  - sync
+  - chore
+  - revert
+  - perf
+  - test
+allowMergeCommits: true
+allowRevertCommits: true
