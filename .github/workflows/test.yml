@@ -6,14 +6,13 @@ on:
       - main
   pull_request:
     types:
+      - synchronize
       - opened
       - reopened
       - ready_for_review
     branches:
       - main
       - feat/**
-    workflow_call:
-    workflow_dispatch:
 
 env:
   CI: false
