@@ -6,9 +6,12 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "typecheck": "pnpm --filter @anything/app run typecheck"
+    "typecheck": "pnpm --filter @anything/app run typecheck",
+    "husky:install": "husky install",
+    "postinstall": "pnpm run husky:install"
   },
   "devDependencies": {
+    "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "turbo": "^2.0.4",
     "typescript": "^5.4.5"
