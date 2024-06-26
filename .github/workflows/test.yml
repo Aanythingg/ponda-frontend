@@ -12,6 +12,7 @@ on:
     branches:
       - main
       - feat/**
+    workflow_call:
 
 env:
   CI: false
